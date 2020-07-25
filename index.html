@@ -20,14 +20,28 @@
 		.carousel-inner img {
 		  width: 100%;
 		}
-		#nav{margin:1%;
-		align-content: center;
-		text-align: left;}
+		#navbar{margin:0;
+		text-align: center;
+		padding: 0;
+		list-style-type: none;}
+		#navop{display: inline;
+		}
 		body{width: 90%;
 		margin:0 auto;
+		font:normal 400 18px Lora, serif;
 		}
 		#null{color: rgba(255, 255, 255, 0);}
+
+		
 	</style>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172442692-4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-172442692-4');
+	</script>
 </head>
 <body>
 
@@ -36,13 +50,13 @@
 </div>
 
 
-<div id="nav">
-	<ul>
-		<li><a href="">Youtube</a></li>
-		<li><a href="">News</a></li>
-		<li><a href="">Projects</a></li>
-		<li><a href="">About</a></li>
-		<li><a href="">Contact</a></li>
+<div>
+	<ul id="navbar">
+		<li id="navop"><a href="">Youtube</a></li>
+		<li id="navop"><a href="">News</a></li>
+		<li id="navop"><a href="">Projects</a></li>
+		<li id="navop"><a href="">About</a></li>
+		<li id="navop"><a href="">Contact</a></li>
 	</ul>
 </div>
 
@@ -56,7 +70,7 @@
 
 <div class="YouTube">
 <h2>YouTube</h2>
-<p><a href = https://www.youtube.com/channel/UCdbqUWT3_0WgybqNuCX9uJA> Check out our YouTube Channel Now</a></p>
+<p><a href = https://www.youtube.com/channel/UCdbqUWT3_0WgybqNuCX9uJA target="_blank"> Check out our YouTube Channel Now</a></p>
 <p>Watch our latest videos here:</p>
 <p>*insert latest videos*</p>
 </div>
@@ -69,36 +83,36 @@
       	<li><a href = "https://7o8.tech/"> 7o8.tech </a> 
       	You're on it right now, WOW!
       	</li>
-		<li><a href = "https://github.com/dudesof708/game"> *game* </a> 
+		<li><a href = "https://github.com/dudesof708/game" target="_blank"> *game* </a> 
 		<button type="button"
 		onclick="document.getElementById('game').innerHTML = 'game-name is a game about loss, love, and hunger. You play as Leo, trying to fill your insatiable appetite for rice as you scrounge the map looking for morsels of rice to cook and eat. Along the way, you meet some strangers, which seem friendly at first, but are actually secretly trying to thwart your every move. How will you defeat them?'">
 		Learn more about the *game*</button>
 		<p id="game"></p>
 		</li>
-		<li><a href = "https://github.com/gideontong/Amy"> Amy the bot </a> 
+		<li><a href = "https://github.com/gideontong/Amy" target="_blank"> Amy the bot </a> 
 		<button type="button"
 		onclick="document.getElementById('amy').innerHTML = 'Amy is your personal assisstant, reimagined'">
 		Learn more about Amy </button>
 		<p id='amy'></p>
 		</li>
-		<li><a href = "https://github.com/dudesof708/aurora"> Aurora</a> 
+		<li><a href = "https://github.com/dudesof708/aurora" target="_blank"> Aurora</a> 
 		<button type="button"
 		onclick="document.getElementById('aurora').innerHTML = 'Content manager for YouTubers, TikTokers, and more to mass upload, edit, and manage their content.'">
 		Learn more about Aurora </button>
 		<p id='aurora'></p>
 		</li>
-		<li><a href = "https://github.com/mbuyd/Orachikov"> Orachikov</a> 
+		<li><a href = "https://github.com/mbuyd/Orachikov" target="_blank"> Orachikov</a> 
 		<button type="button"
 		onclick="document.getElementById('orachikov').innerHTML = 'Orachi functionality with the Akov usability, check it out on our discord food channel.'">
 		Learn more about Orachikov </button>
 		<p id='orachikov'></p>
 		</li>
-		<li><a href = "https://github.com/dudesof708/wikipedia-speedrun"> wikipedia-speedrunner</a> 
+		<li><a href = "https://github.com/dudesof708/wikipedia-speedrun" target="_blank"> wikipedia-speedrunner</a> 
 		Play Wikipedia Speedruns with your friends!
 		</li>
 	  </ul>
 		<hr />
-		<p><h5>Check out our full list of projects on the <a href="https://github.com/dudesof708"> Dudes of 708 Github</a></h5></p>
+		<p><h5>Check out our full list of projects on the <a href="https://github.com/dudesof708" target="_blank"> Dudes of 708 Github</a></h5></p>
 		   
     </div>
 
@@ -124,12 +138,12 @@
 			<h4>Cheese Pizza</h4>
 		  </div>
 		  <p>*insert Leo info*</p>
-	    </div>
+		</div>
 
 		<div class="carousel-item">
 	      <img src="images/gid.png" alt="Resident Hacker" height="500">
 	      <div class="carousel-caption">
-			<h4 id="two">Resident Hacker</h4>
+			<h4>Resident Hacker</h4>
 		  </div>
 		  <p>*insert Gid info*</p>
 	    </div>
@@ -139,16 +153,14 @@
 	      <div class="carousel-caption">
 			<h4>Epic Gamer</h4>
 		  </div>
-
 		  <p>*insert Brian info*</p>
 	    </div>
 
 	    <div class="carousel-item">
 	      <img src="images/max.png" alt="Cap Russia" height="500">
 	      <div class="carousel-caption">
-			<h4 id="four">Cap Russia</h4>
+			<h4>Cap Russia</h4>
 		  </div>
-
 		  <p>*insert Max info*</p>
 	     </div>
 
@@ -157,16 +169,14 @@
 	      <div class="carousel-caption">
 			<h4>Air Engineer</h4>
 		  </div>
-
 		  <p>*insert Aedan info*</p>
 	     </div>
 
 	    <div class="carousel-item">
 	      <img src="images/null.png" alt="Jonathan" height="500">
 	      <div class="carousel-caption">
-			<h4 id="four">Jayy</h4>
+			<h4>Jayy</h4>
 		  </div>
-
 		  <p>*insert Jeremiah info*</p>
 	     </div>
 
@@ -175,7 +185,6 @@
 	      <div class="carousel-caption">
 			<h4>Pon</h4>
 		  </div>
-
 		  <p>*insert Shawn info*</p>
 	     </div>
 
@@ -197,7 +206,7 @@
 		<img class="img-fluid" src="images/gangstaboi.png" alt="gangstaboi mug shot" width="520" /> 
 		<p><strong>BREAKING NEWS:</strong> Gansta Boi was arrested for tax evasion, and he needs your credit card information to pay for his bail bonds.</p>
 		<hr />
-		<p>Stay up to date with 708 news by visiting our <a href = 'https://blog.7o8.tech/'>blog site</a></p>
+		<p>Stay up to date with 708 news by visiting our <a href = 'https://blog.7o8.tech/' target="_blank">blog site</a></p>
 
    </div>
   </div>
