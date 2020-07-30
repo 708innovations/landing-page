@@ -1,9 +1,7 @@
-h1 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-nav {
-    font-family: 'Open Sans', sans-serif;
+body {
+    width: 90%;
+    margin: 0 auto;
+    font: 'Open Sans', sans-serif;
 }
 
 .carousel-inner img {
@@ -21,11 +19,6 @@ nav {
     display: inline;
 }
 
-body {
-    width: 90%;
-    margin: 0 auto;
-    font: normal 400 18px Lora, serif;
-}
 
 #null {
     color: rgba(255, 255, 255, 0);
