@@ -1,0 +1,24 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+#navbar {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navop {
+    display: inline;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    font: normal 400 18px Lora, serif;
+}
+
+#null {
+    color: rgba(255, 255, 255, 0);
+}
