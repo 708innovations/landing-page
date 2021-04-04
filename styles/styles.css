@@ -2621,7 +2621,7 @@ ol {
 
 /* Video */
 .intro-video-area {
-    background-image: url("../images/video/video-bg.jpg");
+    background-image: url("../images/video-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: relative;
