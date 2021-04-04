@@ -4761,8 +4761,10 @@ blockquote span {
     }
 
     .faq-area .heading {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 20px;
+        color: #081828;
+        display: block;
+        margin-bottom: 20px;
     }
 
     .brand-area .section-title.align-left {
