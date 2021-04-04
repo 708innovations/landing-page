@@ -1379,8 +1379,7 @@ ol {
     margin-top: 30px;
 }
 
-/* Header Code */
-/* Navbar */
+/* Header CSS - Navbar */
 .navbar-area {
     width: 100%;
     z-index: 99;
@@ -1855,8 +1854,9 @@ ol {
 }
 
 .header.index2 .logo img {
+    position: relative;
     left: 0;
-    top: 0;
+    top: 10px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -2065,7 +2065,6 @@ ol {
 
 .hero-area.index3 .hero-text h1 {
     color: #fff;
-    text-transform: capitalize;
 }
 
 .hero-area.index3 .hero-text p {
@@ -2407,7 +2406,7 @@ ol {
     margin-bottom: 30px;
 }
 
-/* About Us */
+/* About */
 .about-us {
     background-color: #f6f9fc;
 }
@@ -2621,7 +2620,7 @@ ol {
     font-size: 13px;
 }
 
-/* Intro Video */
+/* Video */
 .intro-video-area {
     background-image: url("../images/video/video-bg.jpg");
     background-size: cover;
@@ -2748,7 +2747,7 @@ ol {
     }
 }
 
-/* Blog */
+/* Posts */
 .latest-news-area .single-news .image {
     position: relative;
     border-radius: 4px;
@@ -3515,7 +3514,127 @@ blockquote span {
     border-color: transparent;
 }
 
-/* Brand Section */
+/* Newsletter */
+.newsletter-area {
+    background-color: #f6f9fc;
+}
+
+.newsletter-area .subscribe-text {
+    background-color: #3763EB;
+    color: #fff;
+    padding: 40px;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+    box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+}
+
+.newsletter-area .subscribe-text h6 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.newsletter-area .subscribe-text p {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.newsletter-area .subscribe-text input {
+    height: 53px;
+    width: 400px;
+    border: none;
+    background-color: #fff;
+    color: #081828;
+    border-radius: 30px;
+    padding: 0px 30px;
+    display: inline-block;
+}
+
+.newsletter-area .subscribe-text .button {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.newsletter-area .subscribe-text .button .btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #eee;
+    height: 53px;
+}
+
+.newsletter-area .subscribe-text .button .btn:hover {
+    background-color: #fff;
+    color: #3763EB;
+    border-color: transparent;
+}
+
+.newsletter-area .mini-call-action {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    -webkit-box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+    box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
+    border-radius: 5px;
+}
+
+.newsletter-area .mini-call-action h4 {
+    color: #081828;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.newsletter-area .mini-call-action p {
+    font-size: 13px;
+}
+
+.newsletter-area .mini-call-action .button {
+    margin-top: 25px;
+}
+
+.newsletter-area .mini-call-action.index2 .button .btn {
+    position: relative;
+    padding-left: 45px;
+    text-align: left;
+    width: 100%;
+    padding: 10px 10px 10px 65px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.newsletter-area .mini-call-action.index2 .button .btn:last-child {
+    margin-bottom: 0;
+}
+
+.newsletter-area .mini-call-action.index2 .button .btn span {
+    display: block;
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.newsletter-area .mini-call-action.index2 .button .btn i {
+    font-size: 25px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    display: inline-block;
+}
+
+.newsletter-area .mini-call-action.index3 .button .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.newsletter-area .mini-call-action.index3 .button .btn:last-child {
+    margin-bottom: 0;
+}
+
+/* Brand */
 .brand-area .section-title {
     margin-bottom: 0 !important;
 }
@@ -3607,7 +3726,7 @@ blockquote span {
     margin-bottom: 0;
 }
 
-/* Footer Section */
+/* Footer */
 .footer {
     background-color: #081828;
     z-index: 2;
@@ -3770,8 +3889,7 @@ blockquote span {
     color: #3763EB;
 }
 
-/* Responsive Code */
-/* Tablet Screen */
+/* Responsive - Tablet Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section {
         padding: 60px 0px;
@@ -4867,7 +4985,7 @@ blockquote span {
     }
 }
 
-/* Contact Form */
+/* Contact */
 .contact-us {
     position: relative;
     background-color: #fff;
@@ -5101,7 +5219,7 @@ blockquote span {
     border-radius: 7px;
 }
 
-/* Error Page */
+/* Errors */
 .error-page {
     text-align: center;
     background: #fff;
