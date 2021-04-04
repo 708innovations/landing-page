@@ -66,16 +66,25 @@
 									<img class="logo2" src="images/logo.png" alt="Dudes of 708 Logo" />
 								</a>
 								<button class="navbar-toggler" type="button" data-toggle="collapse"
+									data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 									data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 									aria-expanded="false" aria-label="Toggle navigation">
-									<span class="toggler-icon"></span>
-									<span class="toggler-icon"></span>
-									<span class="toggler-icon"></span>
+									<span class="toggler-icon navbar-toggler-icon"></span>
+									<span class="toggler-icon navbar-toggler-icon"></span>
+									<span class="toggler-icon navbar-toggler-icon"></span>
 								</button>
 								<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-									<ul id="nav" class="navbar-nav ml-auto">
+									<ul id="nav" class="navbar-nav ml-auto me-auto">
 										<li class="nav-item"><a class="active" href="#">Home</a></li>
-										<li class="nav-item"><a href="#">Services</a></li>
+										<li class="nav-item">
+											<a href="#">Services</a>
+											<ul class="sub-menu">
+												<li><a href="#">Software Engineering</a></li>
+												<li><a href="#">Content Creation</a></li>
+												<li><a href="#">Operations Design</a></li>
+												<li><a href="#">Cybersecurity</a></li>
+											</ul>
+										</li>
 										<li class="nav-item">
 											<a href="#">Portfolio</a>
 											<ul class="sub-menu">
@@ -97,24 +106,7 @@
 												<li><a href="https://blog.dudesof708.com" target="_blank">Blog</a></li>
 											</ul>
 										</li>
-										<li class="nav-item">
-											<a href="#">Members</a>
-											<ul class="sub-menu">
-												<li><a href="https://www.lambrian.me" target="_blank">Brian Lam</a></li>
-												<li><a href="https://gideontong.com" target="_blank">Gideon Tong</a>
-												</li>
-												<li><a href="https://www.linkedin.com/in/jeremiah-lim-01/"
-														target="_blank">Jeremiah Lim</a></li>
-												<li><a href="https://www.linkedin.com/in/kwstubbs/"
-														target="_blank">Kevin
-														Stubbings</a></li>
-												<li><a href="http://buydakov.tech/" target="_blank">Max Buydakov</a>
-												</li>
-												<li><a href="https://leoz.me" target="_blank">Wanquan Zhang</a></li>
-												<li><a href="https://www.linkedin.com/in/zhuoweichen/"
-														target="_blank">Zhuowei Chen</a></li>
-											</ul>
-										</li>
+										<li class="nav-item"><a href="#">Members</a></li>
 										<li class="nav-item"><a href="https://wiki.dudesof708.com/"
 												target="_blank">Wiki</a>
 										</li>
@@ -196,36 +188,36 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-service wow fadeInUp" data-wow-delay=".2s">
-							<h3><a href="#">TODO: Title</a></h3>
+							<h3><a href="#">Software Engineering</a></h3>
 							<div class="icon">
-								<i class="fas fa-lock"></i>
+								<i class="fas fa-terminal"></i>
 							</div>
 							<p>TODO: Insert Description</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-service wow fadeInUp" data-wow-delay=".4s">
-							<h3><a href="#">TODO: Title</a></h3>
+							<h3><a href="#">Content Creation</a></h3>
 							<div class="icon">
-								<i class="fas fa-headphones"></i>
+								<i class="fas fa-gamepad"></i>
 							</div>
 							<p>TODO: Insert Description</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-service wow fadeInUp" data-wow-delay=".6s">
-							<h3><a href="#">TODO: Title</a></h3>
+							<h3><a href="#">Operations Design</a></h3>
 							<div class="icon">
-								<i class="fas fa-credit-card"></i>
+								<i class="fas fa-people-carry"></i>
 							</div>
 							<p>TODO: Insert Description</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-service wow fadeInUp" data-wow-delay=".8s">
-							<h3><a href="#">TODO: Title</a></h3>
+							<h3><a href="#">Cybersecurity</a></h3>
 							<div class="icon">
-								<i class="fas fa-rocket"></i>
+								<i class="fas fa-fingerprint"></i>
 							</div>
 							<p>TODO: Insert Description</p>
 						</div>
@@ -301,12 +293,14 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title white-text">
-						<span class="wow fadeInDown" data-wow-delay=".2s">TODO: Subtext</span>
+						<span class="wow fadeInDown" data-wow-delay=".2s">Our Latest Video</span>
 						<h2 class="wow fadeInUp" data-wow-delay=".4s">
-							TODO: Call to action
+							Fresh, entertaining content
 						</h2>
 						<p class="wow fadeInUp" data-wow-delay=".6s">
-							TODO: Video description
+							We produce multimedia for hundreds of different mediums and
+							distribution channels. Tap the play button below to see one of our
+							recent videos.
 						</p>
 					</div>
 				</div>
@@ -316,9 +310,9 @@
 					<div class="intro-video-play">
 						<div class="row justify-content-center">
 							<div class="col-lg-10 col-12">
-								<div class="play-thumb wow zoomIn" data-wow-delay=".2s">
-									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video"><i
-											class="fas fa-play"></i></a>
+								<div class="play-thumb wow zoomIn">
+									<a href="https://www.youtube.com/watch?v=k0JsJJwIz8w" target="_blank"
+										class="video"><i class="fas fa-play"></i></a>
 								</div>
 							</div>
 						</div>
@@ -399,7 +393,7 @@
 							<ul>
 								<li><a href="#">Software Engineering</a></li>
 								<li><a href="#">Content Creation</a></li>
-								<li><a href="#">Operations Development</a></li>
+								<li><a href="#">Operations Design</a></li>
 								<li><a href="#">Cybersecurity</a></li>
 							</ul>
 						</div>
