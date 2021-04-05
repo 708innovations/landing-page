@@ -1819,7 +1819,6 @@ ol {
     display: block;
     font-size: 13px;
     font-weight: 400;
-    text-transform: capitalize;
     background: 0 0;
     border-radius: 3px;
 }
@@ -2099,7 +2098,6 @@ ol {
 
 .hero-area.index3 .hero-text h1 {
     color: #fff;
-    text-transform: capitalize;
 }
 
 .hero-area.index3 .hero-text p {
