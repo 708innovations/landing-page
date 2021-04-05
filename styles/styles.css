@@ -2875,7 +2875,7 @@ ol {
 }
 
 .team {
-    background-color: #f6f9fc;
+    background-color: #fff;
 }
 
 .team .title-line {
@@ -6091,4 +6091,9 @@ blockquote span {
 .mail-success .siccess-text p {
     display: block;
     margin-bottom: 30px;
+}
+
+/* Other Nice Stuff */
+.nice-grey-bg {
+    background-color: #f6f9fc;
 }
