@@ -5950,6 +5950,15 @@ blockquote span {
     border-radius: 5px;
 }
 
+.contact-us .form .form-group-radio input {
+    border: 1px solid #e6e2f5;
+    padding: 20px;
+    color: #333;
+    border-radius: 0;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
 .contact-us .form .form-group textarea {
     height: 180px;
     width: 100%;
